@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Lumiere" },
+      { name: "description", content: "Chroma Stream is a premium, responsive OTT streaming platform landing page." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Lumiere" },
+      { property: "og:description", content: "Chroma Stream is a premium, responsive OTT streaming platform landing page." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Lumiere" },
+      { name: "twitter:description", content: "Chroma Stream is a premium, responsive OTT streaming platform landing page." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ee9b5b3f-0d0b-42ca-883f-0db605f85eca/id-preview-1ad523ce--4f9cb85c-843c-45d1-b2d3-b5c5f30597b1.lovable.app-1778253405027.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ee9b5b3f-0d0b-42ca-883f-0db605f85eca/id-preview-1ad523ce--4f9cb85c-843c-45d1-b2d3-b5c5f30597b1.lovable.app-1778253405027.png" },
     ],
     links: [
       {
